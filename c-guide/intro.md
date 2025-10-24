@@ -10,3 +10,6 @@ No, maybe, yes, probably not, probably 👍
 
 # Do I need to have prior programming experience to follow this?
 Preferably yes, but I am writing this as I learn C - so I will explain everything in as simple terms as possible, for my own sanity as much as yours.
+
+# What next?
+Go to the next part of the guide, of course! [Intro](basics.md)
