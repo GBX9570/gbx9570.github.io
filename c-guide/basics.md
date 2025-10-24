@@ -78,5 +78,17 @@ hello.c:4:32: error: expected ‘;’ before ‘return’
 That's it! You've completed the hardest part of your programming journey - paying attention to a full page of a guide. Now you have many many more to go through. Good luck!
 You can find the next chapter [here](type-var-array.md).
 
+# Exercises
+First, create a simple 'Hello, World!' program. You can copy the code below:
+```C
+#include <stdio.h>
+
+int main(void) {
+  printf("Hello, World!");
+  return 0;
+}
+```
+Now try removing things, adding things and messing around and see what happens. Maybe start with changing the text to have a new line, or change the text completely.
+
 #
 ¹You can name any function whatever you want, so long as its not the same name as another function imported in the same file. You cannot have 2 printf's, for example.
