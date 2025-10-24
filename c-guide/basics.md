@@ -30,7 +30,7 @@ Lets take the first line:
 `int main(void) {`
 This likely looks like pure giberish, with no meaning. But every part of this line tells the **compiler** a key thing about this block of code. 
 * `int` -> The return type. You will learn more about types later, but for now just know that this means when this function ends, it gives a number to whatever takes over after (whether its another function or the operating system).
-* `main` -> The function name. This can be changed in every function to whatever you want*, but the main function is required to tell the compiler where to start from.
+* `main` -> The function name. This can be changed in every function to whatever you want¹, but the main function is required to tell the compiler where to start from.
 * `(void)` -> Every function takes arguments. The main function is no different. Arguments, like types, will be explained later. All you need to know is `void` means there are no arguments necessary for that function.
 
 Now for the syntax. The return type must ALWAYS come before the function name, and the function name must ALWAYS come before the arguments. Additionally, the body (main part of the code) of the function is opened with a { and closed with a }.
@@ -77,4 +77,4 @@ hello.c:4:32: error: expected ‘;’ before ‘return’
 # What next?
 That's it! You've completed the hardest part of your programming journey - paying attention to a full page of a guide. Now you have many many more to go through. Good luck!
 
-* You can name any function whatever you want, so long as its not the same name as another function imported in the same file. You cannot have 2 printf's, for example.
+¹You can name any function whatever you want, so long as its not the same name as another function imported in the same file. You cannot have 2 printf's, for example.
