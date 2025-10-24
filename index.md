@@ -12,3 +12,7 @@ A small fetch tool written in C to learn the language a little bit:
 ## Yauc
 A small kernel written in C and assembly, dead (for now!!):
 [Yauc](https://github.com/GBX9570/Yauc)
+
+## C Language Guide
+A work in progress C language guide where I write how to write in C as I learn it, giving tips from a fellow novice.
+[C Language Guide](c-guide/index.md)
