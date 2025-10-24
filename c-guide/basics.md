@@ -76,5 +76,7 @@ hello.c:4:32: error: expected ‘;’ before ‘return’
 
 # What next?
 That's it! You've completed the hardest part of your programming journey - paying attention to a full page of a guide. Now you have many many more to go through. Good luck!
+You can find the next chapter [here](type-var-array.md).
 
+#
 ¹You can name any function whatever you want, so long as its not the same name as another function imported in the same file. You cannot have 2 printf's, for example.
