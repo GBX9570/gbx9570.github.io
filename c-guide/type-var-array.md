@@ -58,7 +58,7 @@ many do, so take notes!!! So:
 * `%ld` -> This allows you to place a double type variable into a string.
 
 You should always use format specifiers like this:
-`printf("Hello, %s, my name is %s", variable, variable2);
+`printf("Hello, %s, my name is %s", variable, variable2);`
 You should put the name of variables after the text, and seperate the arguments (text and variables) from each other with commas. Additionally, you MUST put the variables in the order you intend them to show
 up, else the compiler will get confused and put them in an order that you DON'T want. For example here, if we want it to say 'Hello, sheridan, my name is logan', and if `variable = sheridan` and `variable2 = logan`, and I put:
 `printf("Hello, %s, my name is %s", variable2, variable);`, then the wrong output will be printed. It will print 'Hello, logan, my name is sheridan'.
