@@ -73,4 +73,4 @@ An array is, more or less, a list of data. Nothing fancy, but you will use them 
 Here I am using an int because it is easier to demonstrate, but don't worry - it works in the exact same way! Basically, C starts counting from 0 (makes more sense than regular maths honestly), and every element (entry, in this case our elements are 10, 20 and 30) is numbered. For example, 10 in our example becomes `example[0]`, because it is the first element of the array. 20 becomes `example[1]`, etc etc. You don't need to worry about this with strings, simply put `char example[] = "Hello, World!";` instead of manually inputting your characters. And as a reminder, const DOES work with arrays!! Grammatically, const is a.. const.
 
 You don't really need to worry about arrays too much yet for the purposes of this chapter, so long as you understand the concept and how to make strings with them. But if you hated this as much as I hated writing it,
-you're gonna ~~HATE~~ LOVE next chapter!
+you're gonna ~~HATE~~ LOVE next chapter! You can find it [here](pointers.md)
