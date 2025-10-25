@@ -63,33 +63,14 @@ You should put the name of variables after the text, and seperate the arguments 
 up, else the compiler will get confused and put them in an order that you DON'T want. For example here, if we want it to say 'Hello, sheridan, my name is logan', and if `variable = sheridan` and `variable2 = logan`, and I put:
 `printf("Hello, %s, my name is %s", variable2, variable);`, then the wrong output will be printed. It will print 'Hello, logan, my name is sheridan'.
 
-Strings are weird ones - they are recognised as a variable you can place with format specifiers, but notice how there are no string types? Thats because we need to learn about arrays. They sound scary at first,
-but in reality are very simple.
+Strings are weird ones - they are recognised as a variable you can place with format specifiers, but notice how there are no string types? Thats because we need to learn about arrays. They sound scary at first, but in reality are very simple.
 
 ### Arrays
 this is also pretty boring, but this is actually probably more important, so buckle up buttercups cause it only gets more annoying from here!!
-An array is nothing more than a set of data. Think year 8 maths, you have a list that looked like this:
-`x = (1, 2, 3, 4)`
-And you would say that x₂ is equal to 2. Well, in C, an array is JUST as simple - in fact, its possibly one of the simplest things this book will teach you.
+An array is, more or less, a list of data. Nothing fancy, but you will use them EVERYWHERE. An array can have an infinite amount of entries, making them ideal for things like *strings*. In a char type variable, one character can be stored. Technically, this is enough and you can make a new char everytime you want another character, but that is slow and utterly ridiculous. Alternatively, we can make a char with a name ending with []. This is declaring an array. So now, if we type `const char text[]`, we have an array called text that can hold all the characters we want. You can use this for literally any type, and this will save you a LOT of headaches as time goes on. Some syntax examples are below:
 
-Here is a basic array in C:
-`int hello[3];`
-Here, we have defined an array called hello with 3 possible values, but all of those values are 0 (for now!). We can append things to it by adding a pointer (which we will go into more detail on next chapter, all you need to know is that a pointer.. points to stuff. Kind of like using x instead of the actual number in maths).
-```C
-int *p; // will explain why you need to put this first next chapter!!
-int *p = hello;
-```
-Now, our pointer `*p` points to the first part of the array in hello. Since hello is empty, *p currently equals a grand total of zero. Cool! Now, lets make hello have something inside it.
-
-Right now, `*p = hello[0]`. Since we did not specify what parts of hello we are trying to write to, the compiler assumes that its the first part (`[0]`). Basically, every single thing inside of hello is given a number, for example if we had 2 numbers in hello, we have `hello[0]` and `hello[1]`. Note that C, as with most parts of computing,
-starts counting from zero, not one.
-
-To make `hello[0]` have a value, we simply do `*p = 1` (or whatever number you want).
-
-Now, you might think, how does this relate to what we are doing right now? Well, this is how we make strings!
-Earlier, we used `const char text[]` to create a string of text. You might also remember that a `char` can only hold one character. So the problem is, how do we make a string with only one letter? We make
-the char into an array! An array can hold any number of variables, so we could have a string thats 1 line long or 1000, and it'll be fine. In the snippet `const char text[]`, the `[]` after `text` essentially
-says to the compiler 'this char is actually an array, so make sure it can hold lots of characters'.
+`int example[] = {10, 20, 30};`
+Here I am using an int because it is easier to demonstrate, but don't worry - it works in the exact same way! Basically, C starts counting from 0 (makes more sense than regular maths honestly), and every element (entry, in this case our elements are 10, 20 and 30) is numbered. For example, 10 in our example becomes `example[0]`, because it is the first element of the array. 20 becomes `example[1]`, etc etc. You don't need to worry about this with strings, simply put `char example[] = "Hello, World!";` instead of manually inputting your characters. And as a reminder, const DOES work with arrays!! Grammatically, const is a.. const.
 
 You don't really need to worry about arrays too much yet for the purposes of this chapter, so long as you understand the concept and how to make strings with them. But if you hated this as much as I hated writing it,
 you're gonna ~~HATE~~ LOVE next chapter!
