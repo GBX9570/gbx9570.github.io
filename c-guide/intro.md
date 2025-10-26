@@ -20,6 +20,6 @@ Preferably yes, but I am writing this as I learn C - so I will explain everythin
 Go to the next part of the guide, of course! [Intro](basics.md)
 
 # Table of Contents
-[Chapter 1 - Bare Basics](basics.md)
-[Chapter 2 - Types, Variables and Arrays](type-var-array.md)
-[Chapter 3 - Pointers](pointers.md)
+* [Chapter 1 - Bare Basics](basics.md)
+* [Chapter 2 - Types, Variables and Arrays](type-var-array.md)
+* [Chapter 3 - Pointers](pointers.md)
