@@ -55,7 +55,7 @@ many do, so take notes!!! So:
 * `%d` -> This allows you to place an integer type variable into a string.
 * `%c` -> This allows you to place a char type variable into a string.
 * `%f` -> This allows you to place a float type variable into a string.
-* `%ld` -> This allows you to place a double type variable into a string.
+* `%lf` -> This allows you to place a double type variable into a string.
 
 You should always use format specifiers like this:
 `printf("Hello, %s, my name is %s", variable, variable2);`
