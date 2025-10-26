@@ -35,7 +35,6 @@ theoritical sense on why changing a pointer changes the original variable, becau
 Now, here is an example:
 
 ```C
-int *p;
 int x = 42;
 int *p = &x; // *p now points to the memory address of x.
 *p = *p + 1; // this changes both *p and x
