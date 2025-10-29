@@ -1,7 +1,7 @@
 # Pointers
 
-# Terminology
-## Pointer
+## Terminology
+### Pointer
 A variable that points (POINTer!!) to the memory address of another variable.
 
 # Required Knowledge
