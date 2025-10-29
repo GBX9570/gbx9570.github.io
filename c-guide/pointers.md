@@ -42,7 +42,8 @@ printf("%d", x); // returns 43, because we added 1 to *p
 printf("%d", *p); // also 43.
 ```
 
-It is important to note - you CANNOT say `*p = 42;`, or anything of the sort. 42 is a raw integer, and `*p` requires a memory address like &x.
+It is important to note - you CANNOT say `*p = 42;`, without initialising `*p`. Initialising `*p` likely sounds complex, but its actually simple as hell. To initialise `*p`, you just say `int *p = (variable);`. Saying `*p = 42`
+without initialising `*p` first is essentially telling the computer to find the memory address of `42` which.. doesn't exist. It's a number.
 
 Now, its time to bring arrays into the mix. This is one place where pointers really shine, because its the easiest way to manipulate a specific element of an array. You literally just do:
 
@@ -54,8 +55,7 @@ printf("%d", *p); // prints out the first element of example (example[0]), or 20
 // also, fyi, if you do int *p = &example[x] then whatever you do to *p changes example[x], it doesnt have to be just zero
 ```
 
-There are many uses for pointers, but rather than go on and on
-about all the uses without ever explaining them or making this page hundreds of lines long with examples, I'm gonna show you as the guide goes on - and eventually, I'll explain things like double and triple
+There are many more uses for pointers, but rather than go on and on about all the uses without ever explaining them or making this page hundreds of lines long with examples, I'm gonna show you as the guide goes on - and eventually, I'll explain things like double and triple
 pointers (little bit more of a brainf*ck, but thats what you signed up for!).
 
 There, thats all! You understand pointers. Far less scary than people make them out to be - remember kids, bad explanation makes things hard, not the topic!!
