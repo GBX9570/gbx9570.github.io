@@ -12,3 +12,6 @@ D: your boyfriend installed something on your computer and is now forcing you to
 
 # Where do I begin?
 [Section 1 - Bash to Basics](bash.md)
+[Section 2 - Setup of a Linux system](setup.md)
+[Section 3 - What next?](next.md)
+[Section 4 - What is Unix, and how does Linux use it?](unix.md)
