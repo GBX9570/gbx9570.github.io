@@ -8,3 +8,8 @@ Or maybe you wanna master bash and make command line scripts and tools (which is
 
 Maybe you really really wanna learn the internals of Unix, Linux is brilliant for that - and the cool thing about Linux being open source means that anything you thing could be improved,
 you can write a patch in C or rust and get it included in the kernel, and you can even use Linux code in your own projects.
+
+# Will this guide cover anything more?
+Yeah
+
+[Unix bullshittery](unix.md)
