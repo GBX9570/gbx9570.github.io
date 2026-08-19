@@ -16,3 +16,7 @@ A small kernel written in C and assembly, dead (for now!!):
 ## C Language Guide
 A work in progress C language guide where I write how to write in C as I learn it, giving tips from a fellow novice.
 [C Language Guide](c-guide/intro.md)
+
+## Arch Linux Guide
+A quick and easy guide to Arch Linux and also the basics of Linux in general.
+[Arch Guide](arch-guide/intro.md)
