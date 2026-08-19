@@ -28,10 +28,10 @@ user@computer ~ $ lspci
 user@computer ~ $
 ```
 
-but with pipes, you can use 2 commands at once to perform more than 1 thing. For example, I can run `lspci` and pipe in `grep` to create the command: `lspci || grep` (the `||` is called a pipe) to
+but with pipes, you can use 2 commands at once to perform more than 1 thing. For example, I can run `lspci` and pipe in `grep` to create the command: `lspci | grep` (the `|` is called a pipe) to
 end up with this output:
 ```
-user@computer ~ $ lspci || grep "Audio"
+user@computer ~ $ lspci | grep "Audio"
 00:03.0 Audio device: Intel Corporation Haswell-ULT HD Audio Controller (rev 0b)
 user@computer ~ $
 ```
