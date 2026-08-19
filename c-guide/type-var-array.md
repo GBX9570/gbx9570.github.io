@@ -21,7 +21,7 @@ Welcome Back! Hopefully you enjoyed the last section, and you wanna learn more..
 #include <stdio.h>
 
 int main(void) {
-  const char text[] = "Sheridan";
+  const char text[] = "Hello";
   printf("Hello, %s!", text);
   return 0;
 }
@@ -60,7 +60,7 @@ many do, so take notes!!! So:
 You should always use format specifiers like this:
 `printf("Hello, %s, my name is %s", variable, variable2);`
 You should put the name of variables after the text, and seperate the arguments (text and variables) from each other with commas. Additionally, you MUST put the variables in the order you intend them to show
-up, else the compiler will get confused and put them in an order that you DON'T want. For example here, if we want it to say 'Hello, sheridan, my name is logan', and if `variable = sheridan` and `variable2 = logan`, and I put:
+up, else the compiler will get confused and put them in an order that you DON'T want. For example here, if we want it to say 'Hello, name, my name is name 2', and if `variable = name` and `variable2 = name 2`, and I put:
 `printf("Hello, %s, my name is %s", variable2, variable);`, then the wrong output will be printed. It will print 'Hello, logan, my name is sheridan'.
 
 Strings are weird ones - they are recognised as a variable you can place with format specifiers, but notice how there are no string types? Thats because we need to learn about arrays. They sound scary at first, but in reality are very simple.
