@@ -107,10 +107,14 @@ Generally, unless you know exactly what you're doing, don't run a command with s
 exactly what *they* do.
 
 `pacman` - PACkage MANager, allows you to download applications and tools from the internet in the form of 'packages'. Think of it like the app store, but
-in your terminal. Uss these arguments to get around:
+in your terminal. Use these arguments to get around:  
+
 ```-S``` Install Package  
+
 ```-y``` Update Package Database (basically like telling the package manager to go find new directions to packages because sometimes they change address), must be used with `-S`  
+
 ```-u``` Find what updates can be installed  
+
 ```-Syu``` Bring them all together to find, download and install updates  
 
 That's it for this section! Move onto [Getting a basic system setup](setup.md) for more info.
