@@ -17,7 +17,7 @@ First, install `git`:
 `sudo pacman -S git`
 
 Then, clone the YAY repository:
-`git clone https://github.com/Jguer/yay.git`
+`git clone https://aur.archlinux.org/yay.git`
 
 Then, type `cd yay`, before finally running:
 `makepkg -si`
