@@ -20,3 +20,7 @@ A work in progress C language guide where I write how to write in C as I learn i
 ## Arch Linux Guide
 A quick and easy guide to Arch Linux and also the basics of Linux in general.
 [Arch Guide](arch-guide/intro.md)
+
+## Daily Linux
+A daily task to do to get to grips with Linux
+[Daily Linux](daily-linux.md)
