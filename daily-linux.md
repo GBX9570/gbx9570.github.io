@@ -10,11 +10,11 @@ use it for all sorts of things.
 
 ### TASK
 1. Go to this link to a repository and clone it using `git` (remember to use `man git` if you don't know how to use it):  
-`git clone https://github.com/GBX9570/Minifetch`  
+`https://github.com/GBX9570/Minifetch`  
 
-2. Enter the directory. and using the README in the repository (either in your browser or by viewing `README.md` in the project directory), build the program.
+3. Enter the directory. and using the README in the repository (either in your browser or by viewing `README.md` in the project directory), build the program.
 
-3. Finally, run the program from the terminal to see a display of your operating system, and various details about your hardware.  
+4. Finally, run the program from the terminal to see a display of your operating system, and various details about your hardware.  
 
 If you complete this - congrats! You just built your first program on Linux.
 
